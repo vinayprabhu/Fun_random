@@ -1,0 +1,52 @@
+Column_name,Col_name,Interpretation,Col_name
+class_number,class_number,ImageNet class number (0-990),class_number
+wordnet_id,wordnet_id,To uniquely identify a synset ImageNet uses WordNet ID -wnid- which is a concatenation of POS ( i.e. part of speech ) and SYNSET OFFSET of WordNet.,wordnet_id
+label,label,String value describing the class of image,label
+uri,uri,Princeton URI -ID,uri
+n_train,n_train,Number of training images in the class,n_train
+n_val,n_val,Number of val images in the class,n_val
+n_humans_train,n_humans_train,Number of training images of the class with humans in it,n_humans_train
+n_humans_val,n_humans_val,Number of val images of the class with humans in it,n_humans_val
+Nunique_humans_train,Nunique_humans_train,Est number of humans in the training images of the class,Nunique_humans_train
+gender_skewness_train,gender_skewness_train,Skewness of the gender in the training images of the class according to the InsightFace model,gender_skewness_train
+age_min_train,age_min_train,Min age in the training images of the class according to the InsightFace model,age_min_train
+age_max_train,age_max_train,Max age in the training images of the class according to the InsightFace model,age_max_train
+n_women_train,n_women_train,Number of women in the training images of the class according to the InsightFace model,n_women_train
+mean_age_women_train,mean_age_women_train,Mean age in the training images of the class identified as women according to the InsightFace model,mean_age_women_train
+std_age_women_train,std_age_women_train,STD of the ages in the training images of the class identified as women according to the InsightFace model,std_age_women_train
+n_men_train,n_men_train,Number of men in the training images of the class according to the InsightFace model,n_men_train
+mean_age_men_train,mean_age_men_train,Mean age in the training images of the class identified as men according to the InsightFace model,mean_age_men_train
+std_age_men_train,std_age_men_train,STD of the ages in the training images of the class identified as men according to the InsightFace model,std_age_men_train
+age_min_val,age_min_val,Min age in the val images of the class according to the InsightFace model,age_min_val
+age_max_val,age_max_val,Max age in the val images of the class according to the InsightFace model,age_max_val
+Nunique_humans_val,Nunique_humans_val,Est number of humans in the val images of the class,Nunique_humans_val
+gender_skewness_val,gender_skewness_val,Skewness of the gender in the val images of the class according to the InsightFace model,gender_skewness_val
+n_women_val,n_women_val,Number of women in the val images of the class according to the InsightFace model,n_women_val
+mean_age_women_val,mean_age_women_val,Mean age in the val images of the class identified as women according to the InsightFace model,mean_age_women_val
+std_age_women_val,std_age_women_val,STD of the ages in the val images of the class identified as women according to the InsightFace model,std_age_women_val
+n_men_val,n_men_val,Number of men in the val images of the class according to the InsightFace model,n_men_val
+mean_age_men_val,mean_age_men_val,Mean age in the val images of the class identified as men according to the InsightFace model,mean_age_men_val
+std_age_men_val,std_age_men_val,STD of the ages in the val images of the class identified as men according to the InsightFace model,std_age_men_val
+age_min,age_min,Min age in the images of the class according to the InsightFace model,age_min
+age_max,age_max,Max age in the images of the class according to the InsightFace model,age_max
+n_faces_raw_audit,n_faces_raw_audit,Number of faces found in the training images of this class by the DEX model across all confidence levels,n_faces_raw_audit
+n_faceswithages_audit,n_faceswithages_audit,Number of faces found in the training images of this class by the DEX model with high -90+- confidence levels ,n_faceswithages_audit
+n_train_audit,n_train_audit,Number of training images used in the audit paper of this class ,n_train_audit
+mean_age_audit,mean_age_audit,Mean of the estimated age for the training images of this class according to the DEX model used in the audit paper,mean_age_audit
+std_age_audit,std_age_audit,STD of the estimated age for the training images of this class  according to the DEX model used in the audit paper,std_age_audit
+skew_age_audit,skew_age_audit,SKEW of the estimated age for the training images of this class  according to the DEX model used in the audit paper,skew_age_audit
+n_faceswithages_audit_2,n_faceswithages_audit_2,Number of faces found in the training images used in the audit paper of this class ,n_faceswithages_audit_2
+n_train_audit_2,n_train_audit_2,Number of training images used in the audit paper of this class ,n_train_audit_2
+mean_gender_audit,mean_gender_audit,Mean of the estimated gender [0-1] for the training images of this class according to the DEX model used in the audit paper,mean_gender_audit
+std_gender_audit,std_gender_audit,STD of the estimated gender [0-1] for the training images of this class  according to the DEX model used in the audit paper,std_gender_audit
+skew_gender_audit,skew_gender_audit,SKEW of the estimated gender [0-1] for the training images of this class  according to the DEX model used in the audit paper,skew_gender_audit
+mean_nsfw_train,mean_nsfw_train,Mean NSFW score for the training images in the class,mean_nsfw_train
+mean_nsfw_val,mean_nsfw_val,Mean NSFW score for the val images in the class,mean_nsfw_val
+std_nsfw_train,std_nsfw_train,STD of the NSFW scores for the training images in the class,std_nsfw_train
+std_nsfw_val,std_nsfw_val,STD of the NSFW scores for the val images in the class,std_nsfw_val
+mean_top1_train_resnet50,mean_top1_train_resnet50,Mean classwise Top-1 train accuracy using the ResNET50 pretrained model,mean_top1_train_resnet50
+mean_top1_val_resnet50,mean_top1_val_resnet50,Mean classwise Top-1 val accuracy using the ResNET50 pretrained model,mean_top1_val_resnet50
+mean_top5_train_resnet50,mean_top5_train_resnet50,Mean classwise Top-5 train accuracy using the ResNET50 pretrained model,mean_top5_train_resnet50
+mean_top5_val_resnet50,mean_top5_val_resnet50,Mean classwise Top-5 val accuracy using the ResNET50 pretrained model,mean_top5_val_resnet50
+pred_train_resnet50,pred_train_resnet50,List of image-level predictions for training images in the class using ResNet50 pretrained model,pred_train_resnet50
+pred_val_resnet50],pred_val_resnet50],List of image-level predictions for val images in the class using ResNet50 pretrained model,pred_val_resnet50]
